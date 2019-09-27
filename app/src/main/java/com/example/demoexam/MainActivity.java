@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
                 if(!flag)
                     v2=input.getText().toString().trim();
                 v1=calculate(v2);
-                op="+";
+                op="/";
                 output.setText(v1+"/");
                 input.setText("");
             }
